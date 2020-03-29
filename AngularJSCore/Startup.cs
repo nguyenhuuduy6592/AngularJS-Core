@@ -55,7 +55,7 @@ namespace AngularJSCore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Default}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Routing}/{id?}");
             });
         }
     }
